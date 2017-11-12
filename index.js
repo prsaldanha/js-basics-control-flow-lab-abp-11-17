@@ -1,4 +1,4 @@
-function scuberGreetingForFeet (ride)
+function scuberGreetingForFeet(ride)
 {
   if (ride <= 400)
     return 'This one is on me!'
@@ -11,7 +11,7 @@ function scuberGreetingForFeet (ride)
 
 function ternaryCheckCity(city)
 {
-  if ($city === 'NYC')
+  if (city === 'NYC')
     return 'Ok, sounds good.'
     else if (city !== 'NYC')
     return 'No go.'
